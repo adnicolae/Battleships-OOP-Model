@@ -2,11 +2,11 @@
 
 namespace BattleshipsModel
 {
-    class Program
+    class Game
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Board board = new Board(10);
         }
     }
 }
